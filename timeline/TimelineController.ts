@@ -7,6 +7,7 @@ module timeline {
 		];
 
 		constructor(
+<<<<<<< HEAD
 			private $scope: ITimelineScope
 		) {
 		}
@@ -15,4 +16,11 @@ module timeline {
 	export interface ITimelineScope extends ng.IScope {
 		aBoolean: boolean;
 	}
+=======
+			private $scope: ng.IScope
+		) {
+			
+		}
+	}
+>>>>>>> c2efc1eef5e6c97646373627554eb046088c75fd
 }

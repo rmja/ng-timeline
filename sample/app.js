@@ -1,6 +1,7 @@
 angular.module('sample', ['timeline'])
 
 .controller('SampleController', function ($scope) {
+<<<<<<< HEAD
 	var timelineDataModel = {
 		categories: [
 			{
@@ -33,5 +34,8 @@ angular.module('sample', ['timeline'])
 	};
 
 	$scope.timelineViewModel = new timeline.TimelineViewModel(timelineDataModel);
+=======
+
+>>>>>>> c2efc1eef5e6c97646373627554eb046088c75fd
 })
 ;
