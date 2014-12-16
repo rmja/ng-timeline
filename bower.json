@@ -1,0 +1,25 @@
+{
+  "name": "ng-timeline",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rmja/ng-timeline",
+  "authors": [
+    "Rasmus Melchior Jacobsen <rmj@utiliread.dk>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.3.7",
+    "jquery": "~2.1.1",
+    "momentjs": "~2.8.4",
+    "underscore": "~1.7.0"
+  }
+}

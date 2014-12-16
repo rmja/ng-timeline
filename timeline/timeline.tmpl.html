@@ -1,0 +1,22 @@
+<div class="columnHeader">
+	<div class="category" ng-repeat="category in model.data.categories">
+		<div class="row header" ng-repeat="row in category.rows">
+			{{row.name}}
+		</div>
+	</div>
+</div>
+
+<div class="columns">
+	<div class="column" ng-repeat="day in model.days">
+		{{day}}
+		<div class="cell"></div>
+	</div>
+</div>
+
+<div ng-repeat="item in model.data.items">
+{{item.content}}
+</div>
+
+<ol ng-repeat="view in model.data.views">
+	<li><a href="{{view.id}}">{{view.name}}</a></li>
+</ol>
